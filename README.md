@@ -93,6 +93,12 @@ dependencies {
     //compile 'com.squareup.retrofit2:adapter-rxjava:2.1.0'
 ```
 
+##[Stetho](https://github.com/facebook/stetho) [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.facebook.stetho/stetho/badge.svg)](https://maven-badges.herokuapp.com/maven-central/cz.jirutka.rsql/rsql-parser)
+```
+  compile 'com.facebook.stetho:stetho:1.3.1'
+  //compile 'com.facebook.stetho:stetho-okhttp3:1.3.1'
+```
+
 #JsonParser
 ##[Gson](https://github.com/google/gson) [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.google.code.gson/gson/badge.svg)](https://maven-badges.herokuapp.com/maven-central/cz.jirutka.rsql/rsql-parser)
 ```
