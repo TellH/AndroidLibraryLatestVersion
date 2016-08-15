@@ -1,5 +1,5 @@
 # AndroidLibraryLatestVersion
-#Base
+#Common
 ##[dagger2](https://github.com/google/dagger) [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.google.dagger/dagger/badge.svg)](https://maven-badges.herokuapp.com/maven-central/cz.jirutka.rsql/rsql-parser)
 
 ```
@@ -124,4 +124,58 @@ dependencies {
 dependencies {
     compile 'com.facebook.fresco:fresco:0.12.0'
 }
+```
+
+#Test
+##[junit](https://github.com/junit-team/junit4) [![Maven Central](https://maven-badges.herokuapp.com/maven-central/junit/junit/badge.svg)](https://maven-badges.herokuapp.com/maven-central/cz.jirutka.rsql/rsql-parser)
+```
+dependencies {
+  testCompile 'junit:junit:4.12'
+}
+```
+##[mockito](https://github.com/mockito/mockito) [![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.mockito/mockito-core/badge.svg)](https://maven-badges.herokuapp.com/maven-central/cz.jirutka.rsql/rsql-parser)
+```
+dependencies {
+  testCompile 'org.mockito:mockito-core:1.10.19'
+}
+```
+##[robolectric](https://github.com/robolectric/robolectric/) [![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.robolectric/robolectric/badge.svg)](https://maven-badges.herokuapp.com/maven-central/cz.jirutka.rsql/rsql-parser)
+```
+dependencies {
+  testCompile "org.robolectric:robolectric:3.1.2"
+}
+```
+
+#DataBase
+##[greenDAO](https://github.com/greenrobot/greenDAO) [![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.greenrobot/greendao/badge.svg)](https://maven-badges.herokuapp.com/maven-central/cz.jirutka.rsql/rsql-parser)
+```
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'org.greenrobot:greendao-gradle-plugin:3.1.0'
+    }
+}
+
+apply plugin: 'org.greenrobot.greendao'
+
+dependencies {
+    compile 'org.greenrobot:greendao:3.1.0'
+}
+```
+
+#EvenBus
+##[EventBus](https://github.com/greenrobot/EventBus) [![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.greenrobot/eventbus/badge.svg)](https://maven-badges.herokuapp.com/maven-central/cz.jirutka.rsql/rsql-parser)
+```
+  compile 'org.greenrobot:eventbus:3.0.0'
+```
+
+#UI Weiget
+```
+    compile 'com.android.support:appcompat-v7:23.3.0'
+    compile 'com.android.support:support-v4:23.3.0'
+    compile 'com.android.support:design:23.3.0'
+    compile 'com.android.support:recyclerview-v7:23.3.0'
+    compile 'com.android.support:cardview-v7:23.3.0'
 ```
